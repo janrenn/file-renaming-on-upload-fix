@@ -1,0 +1,5 @@
+Deny from all
+<FilesMatch ".+\.(jpe?g|jpe|gif|png|css|js|json|ttf|woff|eot|xsl)$">
+    Allow from all
+    Satisfy any
+</FilesMatch>
